@@ -7,10 +7,9 @@ import java.util.concurrent.locks.ReentrantLock;
  * @author ：mei
  * @date ：Created in 2019/2/18 0018 下午 18:23
  * @description：多线程售票
- * 三个售票员     卖出      30张票
+ * 三个售票员卖出30张票
  *	多线程编程的企业级套路+模板
- *
- *  1 线程            操作          资源类
+ *  1 线程        操作          资源类
  *  2 高内聚   低耦合
  * @modified By：
  * @version: $
