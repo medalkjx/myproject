@@ -24,6 +24,10 @@ public class SaleTicket {
 
 
 }
+
+/**
+ * 
+ */
 class Ticket {
     private int number = 30;
     private Lock lock = new ReentrantLock();
