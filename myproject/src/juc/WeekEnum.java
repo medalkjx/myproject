@@ -10,7 +10,7 @@ public enum WeekEnum {
     public static WeekEnum forEach_WeekEnum(int index){
         WeekEnum[] weekEnums = WeekEnum.values();
         for (WeekEnum week:weekEnums) {
-            if (index == week.retCode){
+            if (index == week.getRetCode()){
                 return week;
             }
         }
