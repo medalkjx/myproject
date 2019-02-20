@@ -15,7 +15,7 @@ public enum CountryEnum {
     public static CountryEnum forEach_CountryEnum(int index){
         CountryEnum[] myArray = CountryEnum.values();
         for (CountryEnum element: myArray) {
-            if(index == element.retCode){
+            if(index == element.getRetCode()){
                 return element;
             }
         }
