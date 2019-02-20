@@ -26,7 +26,7 @@ public class SaleTicket {
 }
 
 /**
- * 
+ *
  */
 class Ticket {
     private int number = 30;
